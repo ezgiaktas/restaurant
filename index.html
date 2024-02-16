@@ -1,0 +1,757 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Ezgi Akdaş">
+    <meta name="description" content="Restoran">
+    <meta name="keywords" content="restoran,yemek,alışveriş">
+    <link rel="icon" href="img/favicon.png">
+    <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+    <title>Gün Batımı Restoran</title>
+    <link rel="stylesheet" href="css/all.css">
+</head>
+<body id="page-body">
+    <!-- navigation start -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNavbar">
+        <div class="container">
+            <a href="#page-body" class="navbar-brand text-uppercase" title="new design website link"><i class="bi bi-house-fill mx-2"></i>Anasayfa</a>
+            <button type="button" class="navbar-toggler" data-bs-toggle="offcanvas" data-bs-target="#myNavbar" aria-controls="myNavbar" aria-label="menüyü açma kapama butonu" aria-expanded="false">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="myNavbar" aria-labelledby="myLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="myLabel">Menü</h5>
+                    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Kapat"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav text-uppercase ms-auto py-lg-2">
+                        <li class="nav-item"><a href="#best" class="nav-link btn-close-canvas">En Sevilen Lezzetler</a></li>
+                        <li class="nav-item"><a href="#menu" class="nav-link btn-close-canvas">Menü
+                            <i class="bi bi-journal-text"></i>
+                        </a></li>
+                        <li class="nav-item"><a href="#team" class="nav-link btn-close-canvas">Ekip
+                            <i class="bi bi-microsoft-teams"></i>
+                        </a></li>
+                        <li class="nav-item"><a href="#contact" class="nav-link btn-close-canvas">Rezervasyon
+                            <i class="bi bi-calendar4-week"></i>
+                        </a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- navigation end -->
+    <!-- header start -->
+    <header class="backImage text-white text-center">
+        <div class="container">
+            <div class="backImage-heading text-uppercase">Gün Batımı Restoran</div>
+            <div class="backImage-sub mb-4"> Hoş Geldiniz!</div>
+            <a href="#menu" class="btn btn-warning btn-lg text-uppercase fw-bolder">Menüyü Gör</a>
+        </div>
+    </header>
+    <!-- header end -->
+    <!-- carousel start -->
+    <section id="best">
+        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+            <h3 class="display-6 fw-bold">En Sevilen Lezzetler</h3>
+            <hr>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="img/carousel/1.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="img/carousel/2.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="img/carousel/3.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="img/carousel/4.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="img/carousel/5.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="img/carousel/6.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="img/carousel/7.jpg" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    </section>
+    <!-- carousel end -->
+    <!-- menu start -->
+    <section id="menu" class="mySection">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="s-heading text-uppercase fw-bold">Menü</h2>
+            </div>
+            <div class="row gy-4">
+                <div class="col-sm-6 col-lg-4">
+                    <div class="p-item">
+                        <a href="#PModal1" class="p-link" data-bs-toggle="modal">
+                            <div class="p-hover">
+                                <div class="ph-content text-white">
+                                    <i class="bi bi-plus-lg"></i>
+                                </div>
+                            </div>
+                            <img src="img/menu/sb1.jpg" alt=".." class="img-fluid">
+                        </a>
+                        <div class="p-caption text-center bg-white p-4">
+                            <div class="pc-heading">Soğuk Başlangıçlar</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="p-item">
+                        <a href="#PModal2" class="p-link" data-bs-toggle="modal">
+                            <div class="p-hover">
+                                <div class="ph-content text-white">
+                                    <i class="bi bi-plus-lg"></i>
+                                </div>
+                            </div>
+                            <img src="img/menu/sc1.jpg" alt=".." class="img-fluid">
+                        </a>
+                        <div class="p-caption text-center bg-white p-4">
+                            <div class="pc-heading">Sıcak Başlangıçlar</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="p-item">
+                        <a href="#PModal3" class="p-link" data-bs-toggle="modal">
+                            <div class="p-hover">
+                                <div class="ph-content text-white">
+                                    <i class="bi bi-plus-lg"></i>
+                                </div>
+                            </div>
+                            <img src="img/menu/sl1.jpg" alt=".." class="img-fluid">
+                        </a>
+                        <div class="p-caption text-center bg-white p-4">
+                            <div class="pc-heading">Salatalar</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="p-item">
+                        <a href="#PModal4" class="p-link" data-bs-toggle="modal">
+                            <div class="p-hover">
+                                <div class="ph-content text-white">
+                                    <i class="bi bi-plus-lg"></i>
+                                </div>
+                            </div>
+                            <img src="img/menu/m1.jpg" alt=".." class="img-fluid">
+                        </a>
+                        <div class="p-caption text-center bg-white p-4">
+                            <div class="pc-heading">Makarnalar</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="p-item">
+                        <a href="#PModal5" class="p-link" data-bs-toggle="modal">
+                            <div class="p-hover">
+                                <div class="ph-content text-white">
+                                    <i class="bi bi-plus-lg"></i>
+                                </div>
+                            </div>
+                            <img src="img/menu/a1.jpg" alt=".." class="img-fluid">
+                        </a>
+                        <div class="p-caption text-center bg-white p-4">
+                            <div class="pc-heading">Ana Yemekler</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="p-item">
+                        <a href="#PModal6" class="p-link" data-bs-toggle="modal">
+                            <div class="p-hover">
+                                <div class="ph-content text-white">
+                                    <i class="bi bi-plus-lg"></i>
+                                </div>
+                            </div>
+                            <img src="img/menu/t1.jpg" alt=".." class="img-fluid">
+                        </a>
+                        <div class="p-caption text-center bg-white p-4">
+                            <div class="pc-heading">Tatlılar</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- menu end -->
+    <!-- team start -->
+    <section id="team" class="mySection">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="s-heading text-uppercase fw-bold">Ekibimiz</h2>
+            </div>
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="t-member text-center">
+                        <img class="mx-auto rounded-circle" src="img/team/1.jpg" alt="...">
+                        <h4>Ahmet Deniz</h4>
+                        <p class="text-muted">Mutfak Şefi</p>
+                        <a href="#" class="btn btn-info mx-2 btn-social">
+                            <i class="bi bi-twitter text-white"></i>
+                        </a>
+                        <a href="#" class="btn btn-primary mx-2 btn-social">
+                            <i class="bi bi-facebook"></i>
+                        </a>
+                        <a href="#" class="btn btn-danger mx-2 btn-social">
+                            <i class="bi bi-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="t-member text-center">
+                        <img class="mx-auto rounded-circle" src="img/team/2.jpg" alt="...">
+                        <h4>Cemre Karameşe</h4>
+                        <p class="text-muted">Pastacı Şef</p>
+                        <a href="#" class="btn btn-info mx-2 btn-social">
+                            <i class="bi bi-twitter text-white"></i>
+                        </a>
+                        <a href="#" class="btn btn-primary mx-2 btn-social">
+                            <i class="bi bi-facebook"></i>
+                        </a>
+                        <a href="#" class="btn btn-danger mx-2 btn-social">
+                            <i class="bi bi-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="t-member text-center">
+                        <img class="mx-auto rounded-circle" src="img/team/3.jpg" alt="...">
+                        <h4>Elif Gezgin</h4>
+                        <p class="text-muted">Soğukçu Şef</p>
+                        <a href="#" class="btn btn-info mx-2 btn-social">
+                            <i class="bi bi-twitter text-white"></i>
+                        </a>
+                        <a href="#" class="btn btn-primary mx-2 btn-social">
+                            <i class="bi bi-facebook"></i>
+                        </a>
+                        <a href="#" class="btn btn-danger mx-2 btn-social">
+                            <i class="bi bi-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="t-member text-center">
+                        <img class="mx-auto rounded-circle" src="img/team/4.jpg" alt="...">
+                        <h4>Yılmaz Tunç</h4>
+                        <p class="text-muted">Kasap Şefi</p>
+                        <a href="#" class="btn btn-info mx-2 btn-social">
+                            <i class="bi bi-twitter text-white"></i>
+                        </a>
+                        <a href="#" class="btn btn-primary mx-2 btn-social">
+                            <i class="bi bi-facebook"></i>
+                        </a>
+                        <a href="#" class="btn btn-danger mx-2 btn-social">
+                            <i class="bi bi-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- team end -->
+    <!-- contact start -->
+    <section id="contact" class="mySection">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="s-heading text-uppercase fw-bold bg-white d-inline">Rezervasyon Yap
+                    <i class="bi bi-calendar4-week"></i>
+                </h2>
+                <hr class="text-white">
+                <h3 class="s-subheading p-3 bg-white">Restoranımızda uzun yıllardır misafirlerimize hizmet veriyoruz. Sizleri de restoranımızda ağırlamaktan mutluluk duyarız.</h3>
+            </div>
+            <form class="needs-validation" action="result.php" id="FrmContact" novalidate>
+                <div class="row align-items-stretch mb-5">
+                    <div class="col-md-6">
+                        <div class="form-floating mb-4">
+                            <input type="text" id="name" class="form-control" placeholder="Adınız" required maxlength="40" aria-describedby="ErrName">
+                            <label for="name">Adınız
+                                <span class="text-danger" aria-hidden="true">*</span>
+                                <span class="visually-hidden">Zorunlu Alan</span>
+                            </label>
+                            <div class="invalid-tooltip fst-italic fs-6" id="ErrName"></div>
+                        </div>
+                        <div class="form-floating mb-4">
+                            <input type="email" id="email" class="form-control" placeholder="E-posta" required maxlength="100" aria-describedby="ErrEmail">
+                            <label for="email">E-posta Adresiniz
+                                <span class="text-danger" aria-hidden="true">*</span>
+                                <span class="visually-hidden">Zorunlu Alan</span>
+                            </label>
+                            <div class="invalid-tooltip fst-italic fs-6" id="ErrEmail"></div>
+                        </div>
+                        <div class="form-floating mb-4">
+                            <input type="tel" id="phone" class="form-control" placeholder="Telefon Numaranız" required maxlength="15" aria-describedby="ErrPhone">
+                            <label for="phone">Telefon Numaranız
+                                <span class="text-danger" aria-hidden="true">*</span>
+                                <span class="visually-hidden">Zorunlu Alan</span>
+                            </label>
+                            <div class="invalid-tooltip fst-italic fs-6" id="ErrPhone"></div>
+                        </div>
+                        <div class="form-floating mb-4 datetime">
+                            <input type="datetime-local" id="datetime" name="datetime" width="100%" class="form-control py-5">
+                            <label for="datetime">Tarih ve Saat
+                                <span class="text-danger" aria-hidden="true">*</span>
+                                <span class="visually-hidden">Zorunlu Alan</span>
+                            </label>
+                            <div class="invalid-tooltip fst-italic fs-6" id="ErrDate"></div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-floating form-textarea mb-md-0">
+                            <textarea id="message" class="form-control" placeholder="Mesajınız" required maxlength="300" aria-describedby="ErrMessage"></textarea>
+                            <label for="message">Mesajınız
+                                <span class="text-danger" aria-hidden="true">*</span>
+                                <span class="visually-hidden">Zorunlu Alan</span>
+                            </label>
+                            <div class="invalid-tooltip fst-italic fs-6" id="ErrMessage"></div>
+                        </div>
+                        <div class="text-white text-end">
+                            <span id="current-character">0</span>
+                            <span> / 300</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-center">
+                    <button type="submit" class="btn btn-warning btn-lg text-uppercase py-3 d-block w-100" id="BtnContact">Gönder</button>
+                </div>
+            </form>
+        </div>
+    </section>
+    <!-- contact end -->
+    <!-- footer start -->
+    <footer class="footer py-4">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-4 text-lg-start text-muted">Copyright &copy; New Design 2022
+                </div>
+                <div class="col-lg-4 my-3 my-lg-0">
+                    <a href="#" class="btn btn-info mx-2 btn-social">
+                        <i class="bi bi-twitter text-white"></i>
+                    </a>
+                    <a href="#" class="btn btn-primary mx-2 btn-social">
+                        <i class="bi bi-facebook"></i>
+                    </a>
+                    <a href="#" class="btn btn-danger mx-2 btn-social">
+                        <i class="bi bi-instagram"></i>
+                    </a>
+                </div>
+                <div class="col-lg-4 text-lg-end">
+                    <a href="#" class="link-info text-decoration-none me-3">Gizlilik Politikası</a>
+                    <a href="#page-body" class="link-secondary text-decoration-none">Anasayfa</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- footer end -->
+    <!-- menu modals -->
+    <!-- menu modal item 1 -->
+    <div class="modal fade p-modal" id="PModal1" tabindex="-1" role="dialog" aria-labelledby="myTitle1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-scrollable">
+            <div class="modal-content text-center py-5 mt-2">
+                <div class="close-modal" data-bs-dismiss="modal" aria-label="Kapat">
+                    <img src="img/close-icon.svg" alt="...">
+                </div>
+                <div class="modal-body m-4">
+                    <h2 class="text-uppercase mb-5" id="myTitle1">Soğuk Başlangıçlar</h2>
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <img src="img/menu/sb1.jpg" alt="..." width="90%" height="auto">
+                            <p>
+                                <h4 class="d-inline mx-4">Bruschetta</h4>
+                                <h5 class="d-inline">100₺</h5>
+                            </p>
+                            <p>Kızarmış ekmek üzerinde beyaz peynir, domates, taze fesleğen</p>
+                        </div>
+                        <div class="col-lg-4">
+                            <img src="img/menu/sb2.jpg" alt="..." width="90%" height="auto">
+                            <p>
+                                <h4 class="d-inline mx-4">Zeytinyağlı Fasulye</h4>
+                                <h5 class="d-inline">85₺</h5>
+                            </p>
+                            <p>Zeytinyağı, domates ve taze baharat ile pişirilmiş taze fasulye</p>
+                        </div>
+                        <div class="col-lg-4">
+                            <img src="img/menu/sb3.jpg" alt="..." width="90%" height="auto">
+                            <p>
+                                <h4 class="d-inline mx-4">Zeytinyağlı Vişneli Yaprak Sarma</h4>
+                                <h5 class="d-inline">115₺</h5>
+                            </p>
+                            <p>Vişne sosu ile pişirilmiş zeytinyağlı yaprak sarma</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <img src="img/menu/sb4.jpg" alt="..." width="90%" height="auto">
+                            <p>
+                                <h4 class="d-inline mx-4">Baba Ganuş</h4>
+                                <h5 class="d-inline">85₺</h5>
+                            </p>
+                            <p>Közlenmiş patlıcan, tahin, yoğurt, limon suyu ve zeytinyağı</p>
+                        </div>
+                        <div class="col-lg-4">
+                            <img src="img/menu/sb5.jpg" alt="..." width="90%" height="auto">
+                            <p>
+                                <h4 class="d-inline mx-4">Fındıklı Kısır</h4>
+                                <h5 class="d-inline">85₺</h5>
+                            </p>
+                            <p>Bulgur, domates sos, fındık, ceviz taze kereviz, biber, maydanoz, dereotu</p>
+                        </div>
+                        <div class="col-lg-4">
+                            <img src="img/menu/sb6.jpg" alt="..." width="90%" height="auto">
+                            <p>
+                                <h4 class="d-inline mx-4">Kuru Cacık</h4>
+                                <h5 class="d-inline">85₺</h5>
+                            </p>
+                            <p>Süzme yoğurt, salatalık, kuru nane ve zeytinyağı ile</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- menu modal item 2 -->
+    <div class="modal fade p-modal" id="PModal2" tabindex="-1" role="dialog" aria-labelledby="myTitle2" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-scrollable">
+            <div class="modal-content text-center py-5 mt-2">
+                <div class="close-modal" data-bs-dismiss="modal" aria-label="Kapat">
+                    <img src="img/close-icon.svg" alt="...">
+                </div>
+                <div class="modal-body m-4">
+                    <h2 class="text-uppercase mb-5" id="myTitle2">Sıcak Başlangıçlar</h2>
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <img src="img/menu/sc1.jpg" alt="..." width="90%" height="auto">
+                            <p>
+                                <h4 class="d-inline mx-4">Günün Çorbası</h4>
+                                <h5 class="d-inline">90₺</h5>
+                            </p>
+                            <p></p>
+                        </div>
+                        <div class="col-lg-4">
+                            <img src="img/menu/sc2.jpg" alt="..." width="90%" height="auto">
+                            <p>
+                                <h4 class="d-inline mx-4">Etli Kuru Patlıcan Dolma</h4>
+                                <h5 class="d-inline">120₺</h5>
+                            </p>
+                            <p>Yoğurt sos ile</p>
+                        </div>
+                        <div class="col-lg-4">
+                            <img src="img/menu/sc3.jpg" alt="..." width="90%" height="auto">
+                            <p>
+                                <h4 class="d-inline mx-4">İçli Köfte</h4>
+                                <h5 class="d-inline">120₺</h5>
+                            </p>
+                            <p>Güveçte özel domates sos ve süzme yoğurt ile</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <img src="img/menu/sc4.jpg" alt="..." width="90%" height="auto">
+                            <p>
+                                <h4 class="d-inline mx-4">Paçanga Böreği</h4>
+                                <h5 class="d-inline">120₺</h5>
+                            </p>
+                            <p>Sweet Chilli sos ile</p>
+                        </div>
+                        <div class="col-lg-4">
+                            <img src="img/menu/sc5.jpg" alt="..." width="90%" height="auto">
+                            <p>
+                                <h4 class="d-inline mx-4">Wrap Tavuk</h4>
+                                <h5 class="d-inline">170₺</h5>
+                            </p>
+                            <p>Sotelenmiş tavuk parçacıkları, renkli biber, kırmızı soğan, domates, baharatlı patates, sweet chilli sos ile</p>
+                        </div>
+                        <div class="col-lg-4">
+                            <img src="img/menu/sc6.jpg" alt="..." width="90%" height="auto">
+                            <p>
+                                <h4 class="d-inline mx-4">Taco Et</h4>
+                                <h5 class="d-inline">235₺</h5>
+                            </p>
+                            <p>Katlanmış tortilla ekmeği arasında özel baharatlarla harmanlanmış tavuk, salata ve soslar</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- menu modal item 3 -->
+    <div class="modal fade p-modal" id="PModal3" tabindex="-1" role="dialog" aria-labelledby="myTitle3" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-scrollable">
+            <div class="modal-content text-center py-5 mt-2">
+                <div class="close-modal" data-bs-dismiss="modal" aria-label="Kapat">
+                    <img src="img/close-icon.svg" alt="...">
+                </div>
+                <div class="modal-body m-4">
+                    <h2 class="text-uppercase mb-5" id="myTitle3">Salatalar</h2>
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <img src="img/menu/sl1.jpg" alt="..." width="90%" height="auto">
+                            <p>
+                                <h4 class="d-inline mx-4">Bonfile Bahçe Salata</h4>
+                                <h5 class="d-inline">260₺</h5>
+                            </p>
+                            <p>Izgara dana bonfile dilimleri, Akdeniz yeşillikleri, cherry domates, salatalık, peynir, zeytin,  hardal sos ile</p>
+                        </div>
+                        <div class="col-lg-4">
+                            <img src="img/menu/sl2.jpg" alt="..." width="90%" height="auto">
+                            <p>
+                                <h4 class="d-inline mx-4">Tavuklu Sezar Salata</h4>
+                                <h5 class="d-inline">225₺</h5>
+                            </p>
+                            <p>Taze marul yaprakları, kruton, parmesan peyniri, sezar sos</p>
+                        </div>
+                        <div class="col-lg-4">
+                            <img src="img/menu/sl3.jpg" alt="..." width="90%" height="auto">
+                            <p>
+                                <h4 class="d-inline mx-4">Hellim Salata</h4>
+                                <h5 class="d-inline">175₺</h5>
+                            </p>
+                            <p>Akdeniz yeşillikleri, siyah zeytin, mısır, cherry domates, ızgara hellim peyniri, nohut, kırmızı soğan, balzemik sos ve zeytinyağı ile</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <img src="img/menu/sl4.jpg" alt="..." width="90%" height="auto">
+                            <p>
+                                <h4 class="d-inline mx-4">Gavurdağı Salata</h4>
+                                <h5 class="d-inline">150₺</h5>
+                            </p>
+                            <p>Domates, sivri biber, soğan, maydanoz, ceviz, pulbiber, sumak, limon ve nar ekşisi ile</p>
+                        </div>
+                        <div class="col-lg-4">
+                            <img src="img/menu/sl5.jpg" alt="..." width="90%" height="auto">
+                            <p>
+                                <h4 class="d-inline mx-4">Ton Balıklı Salata</h4>
+                                <h5 class="d-inline">205₺</h5>
+                            </p>
+                            <p>Ton balığı, bebek ıspanak, kereviz sapı, cherry domates, nohut, sarımsak, taze soğan, yeşil zeytin, limon suyu ve zeytinyağı ile</p>
+                        </div>
+                        <div class="col-lg-4">
+                            <img src="img/menu/sl6.jpg" alt="..." width="90%" height="auto">
+                            <p>
+                                <h4 class="d-inline mx-4">Mozarella Salata</h4>
+                                <h5 class="d-inline">180₺</h5>
+                            </p>
+                            <p>Mozarella peyniri, oka, çeri domates, balzemik sirke ve zeytinyağı ile</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- menu modal item 4 -->
+    <div class="modal fade p-modal" id="PModal4" tabindex="-1" role="dialog" aria-labelledby="myTitle4" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-scrollable">
+            <div class="modal-content text-center py-5 mt-2">
+                <div class="close-modal" data-bs-dismiss="modal" aria-label="Kapat">
+                    <img src="img/close-icon.svg" alt="...">
+                </div>
+                <div class="modal-body m-4">
+                    <h2 class="text-uppercase mb-5" id="myTitle4">Makarnalar</h2>
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <img src="img/menu/m1.jpg" alt="..." width="90%" height="auto">
+                            <p>
+                                <h4 class="d-inline mx-4">Penne Arrabiata</h4>
+                                <h5 class="d-inline">180₺</h5>
+                            </p>
+                            <p>Fesleğenli özel acı sos ve parmesan ile</p>
+                        </div>
+                        <div class="col-lg-4">
+                            <img src="img/menu/m2.jpg" alt="..." width="90%" height="auto">
+                            <p>
+                                <h4 class="d-inline mx-4">Fettuccine Al Pesto</h4>
+                                <h5 class="d-inline">200₺</h5>
+                            </p>
+                            <p>Fesleğen, parmesanlı krema sos ile</p>
+                        </div>
+                        <div class="col-lg-4">
+                            <img src="img/menu/m3.jpg" alt="..." width="90%" height="auto">
+                            <p>
+                                <h4 class="d-inline mx-4">Pesto Soslu Penne</h4>
+                                <h5 class="d-inline">180₺</h5>
+                            </p>
+                            <p>Fesleğen, sarımsak, çam fıstığı, parmesan peyniri ve zeytinyağı ile</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <img src="img/menu/m4.jpg" alt="..." width="90%" height="auto">
+                            <p>
+                                <h4 class="d-inline mx-4">Spagetti Bolonez</h4>
+                                <h5 class="d-inline">200₺</h5>
+                            </p>
+                            <p>Dana kıyma, fesleğenli domates sos ve parmesan ile</p>
+                        </div>
+                        <div class="col-lg-4">
+                            <img src="img/menu/m5.jpg" alt="..." width="90%" height="auto">
+                            <p>
+                                <h4 class="d-inline mx-4">Sebzeli Noodle</h4>
+                                <h5 class="d-inline">180₺</h5>
+                            </p>
+                            <p>Fasulye filizi, brokoli, beyaz lahana, havuç, sarımsak, arpacık soğan, taze soğan, Hoisin sosu, soya sosu ve Sriracha sos ile</p>
+                        </div>
+                        <div class="col-lg-4">
+                            <img src="img/menu/m6.jpg" alt="..." width="90%" height="auto">
+                            <p>
+                                <h4 class="d-inline mx-4">Tortellini</h4>
+                                <h5 class="d-inline">180₺</h5>
+                            </p>
+                            <p>Bebek ıspanak, sarımsak, üzüm domates, fasulye, arpa soğan, yeşil zeytin, parmesan peyniri, tereyağı ve zeytinyağı ile</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- menu modal item 5 -->
+    <div class="modal fade p-modal" id="PModal5" tabindex="-1" role="dialog" aria-labelledby="myTitle5" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-scrollable">
+            <div class="modal-content text-center py-5 mt-2">
+                <div class="close-modal" data-bs-dismiss="modal" aria-label="Kapat">
+                    <img src="img/close-icon.svg" alt="...">
+                </div>
+                <div class="modal-body m-4">
+                    <h2 class="text-uppercase mb-5" id="myTitle5">Ana Yemekler</h2>
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <img src="img/menu/a1.jpg" alt="..." width="90%" height="auto">
+                            <p>
+                                <h4 class="d-inline mx-4">Süt Dana Bonfile</h4>
+                                <h5 class="d-inline">570₺</h5>
+                            </p>
+                            <p>Baharatlı patates, kara lahana yaprağı, et suyu ile</p>
+                        </div>
+                        <div class="col-lg-4">
+                            <img src="img/menu/a2.jpg" alt="..." width="90%" height="auto">
+                            <p>
+                                <h4 class="d-inline mx-4">Cafe De Paris</h4>
+                                <h5 class="d-inline">570₺</h5>
+                            </p>
+                            <p>Cafe De Paris Sos ile</p>
+                        </div>
+                        <div class="col-lg-4">
+                            <img src="img/menu/a3.jpg" alt="..." width="90%" height="auto">
+                            <p>
+                                <h4 class="d-inline mx-4">Kuzu Pirzola</h4>
+                                <h5 class="d-inline">660₺</h5>
+                            </p>
+                            <p>Sacchettoni Makarnası, ızgara domates, siyah zeytin, sarımsaklı maydanoz sosu ile</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <img src="img/menu/a4.jpg" alt="..." width="90%" height="auto">
+                            <p>
+                                <h4 class="d-inline mx-4">Izgara Köfte</h4>
+                                <h5 class="d-inline">300₺</h5>
+                            </p>
+                            <p>Maydanoz ve yoğurt ile</p>
+                        </div>
+                        <div class="col-lg-4">
+                            <img src="img/menu/a5.jpg" alt="..." width="90%" height="auto">
+                            <p>
+                                <h4 class="d-inline mx-4">Etli Güveç</h4>
+                                <h5 class="d-inline">390₺</h5>
+                            </p>
+                            <p>Defne yaprağı, havuç, kereviz, sarımsak, maydanoz, soğan, bebek patates, et suyu ve Worcestershire sosu ile</p>
+                        </div>
+                        <div class="col-lg-4">
+                            <img src="img/menu/a6.jpg" alt="..." width="90%" height="auto">
+                            <p>
+                                <h4 class="d-inline mx-4">Wok Tava Et</h4>
+                                <h5 class="d-inline">390₺</h5>
+                            </p>
+                            <p>Brokoli, havuç, kereviz sapı, sarımsak, zencefil, soğan, mantar,susam, bal ve soya sosu ile</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- menu modal item 6 -->
+    <div class="modal fade p-modal" id="PModal6" tabindex="-1" role="dialog" aria-labelledby="myTitle6" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-scrollable">
+            <div class="modal-content text-center py-5 mt-2">
+                <div class="close-modal" data-bs-dismiss="modal" aria-label="Kapat">
+                    <img src="img/close-icon.svg" alt="...">
+                </div>
+                <div class="modal-body m-4">
+                    <h2 class="text-uppercase mb-5" id="myTitle6">Tatlılar</h2>
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <img src="img/menu/t1.jpg" alt="..." width="90%" height="auto">
+                            <p>
+                                <h4 class="d-inline mx-4">Profiterol</h4>
+                                <h5 class="d-inline">145₺</h5>
+                            </p>
+                            <p></p>
+                        </div>
+                        <div class="col-lg-4">
+                            <img src="img/menu/t2.jpg" alt="..." width="90%" height="auto">
+                            <p>
+                                <h4 class="d-inline mx-4">San Sebastian Cheesecake</h4>
+                                <h5 class="d-inline">145₺</h5>
+                            </p>
+                            <p>Çikolata Sos ile</p>
+                        </div>
+                        <div class="col-lg-4">
+                            <img src="img/menu/t3.jpg" alt="..." width="90%" height="auto">
+                            <p>
+                                <h4 class="d-inline mx-4">Havuç Dilim Baklava</h4>
+                                <h5 class="d-inline">170₺</h5>
+                            </p>
+                            <p></p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <img src="img/menu/t4.jpg" alt="..." width="90%" height="auto">
+                            <p>
+                                <h4 class="d-inline mx-4">Brownie</h4>
+                                <h5 class="d-inline">145₺</h5>
+                            </p>
+                            <p></p>
+                        </div>
+                        <div class="col-lg-4">
+                            <img src="img/menu/t5.jpg" alt="..." width="90%" height="auto">
+                            <p>
+                                <h4 class="d-inline mx-4">Dondurma Çeşitleri</h4>
+                                <h5 class="d-inline">140₺</h5>
+                            </p>
+                            <p>Vanilyalı, limonlu, çilekli, çikolatalı, cevizli</p>
+                        </div>
+                        <div class="col-lg-4">
+                            <img src="img/menu/t6.jpg" alt="..." width="90%" height="auto">
+                            <p>
+                                <h4 class="d-inline mx-4">Tiramisu</h4>
+                                <h5 class="d-inline">145₺</h5>
+                            </p>
+                            <p></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="js/bootstrap/bootstrap.bundle.min.js"></script>   
+    <script src="js/custom/extra.js"></script>
+</body>
+</html>
